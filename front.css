@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    color:white;
+    font-family: "Inter", sans-serif;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    height: 80px;
+     background-color:rgb(97, 99, 108) ; 
+    
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a {
+    text-decoration: none;
+    color:white;
+}
+nav ul li a:hover{
+    color:rgb(208, 208, 107);
+    font-size: 1.08rem;
+}
+
+.left{
+    font-size: 1.5rem;
+    color:rgb(0, 0, 0);
+    font-weight: bolder;
+}
+.firstsection{
+    background-image: url("bg\ image.avif"); 
+    background-repeat: no-repeat;
+ background-size:100% 100%;
+ background-blend-mode: darken;
+ opacity:0.8;
+ height: 700px;
+ display: flex;
+}
+
+.leftsection{
+   font-size: 3rem;
+   padding-left: 130px;
+ 
+   
+}
+.firstsection> div{
+    width:30%;
+   transform: translate(40%,20%);
+   
+}
+.first{
+    font-family: "Reddit Sans Condensed", sans-serif;
+    font-size: 70px;
+    
+}
+.second{
+    font-family: "Anton", sans-serif;
+    font-size: 100px;
+    
+    color:rgb(208, 208, 107);
+
+}
+.third{
+    font-family: "Raleway", sans-serif;
+    font-weight: 50px;
+    
+}
+.bttn{
+    background-color: #b8b8c7; 
+  border: none;
+  color: rgb(20, 18, 18);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 16px;
+ 
+}
+.bttn:hover{
+    background-color: #c0c27c;
+    color: rgb(0, 0, 0);
+}
+.secondsection{
+   height: 700px;
+   background-color: rgb(165, 165, 166);
+   display: flex;
+   
+  
+ 
+}
+.discover{
+  margin-left: 50%;
+ height:70px;
+ font-family: "Anton", sans-serif;
+ font-size: 40px;
+
+ color:white;
+ text-decoration: underline;
+ transition: color 0.5s ease-out ;
+}
+.discover:hover{
+    color: #c0c27c;
+    cursor: pointer;
+}
+.description{
+color: black;
+height:90px;
+width:600px;
+margin-left: 200px;
+font-size: larger;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.picture img{
+    height:500px;
+    width:400px;
+    margin-left: 190px;
+    margin-top: 100px;
+     box-shadow: 0 4px 8px 0 rgba(198, 187, 187, 0.2), 0 6px 20px 0 rgba(198, 187, 187, 0.2); 
+      border: 4px solid rgb(62, 14, 63);
+   border-image: linear-gradient(rgb(127, 70, 136), rgb(62, 14, 63)) 1;  
+ 
+}
+
+.text{
+    margin-top: 180px;
+}
+.thirdsection{
+    height: 400px;
+    background-color:rgb(165, 155, 165) ;
+}
+.heading{
+    color:white;
+    margin-left: 600px;
+    font-size: 40px;
+    text-decoration: underline;
+    transition: color 0.5s ease-out;
+
+}
+.heading:hover{
+    color:#c0c27c;
+    cursor: pointer;
+}
+.skills{
+    height:200px;
+    margin: 50px;
+    display: flex;
+    flex-direction:row ;
+  justify-content: space-around;
+}
+input[type="range"] {
+    width: 600px;
+    accent-color: rgb(113, 54, 113);
+    margin-bottom: 50px;
+   
+}
+label{
+    margin-bottom: 10px;
+}
+
+
+/* #element{
+    color:rgb(207, 75, 207);
+} */
+ .fourthsection{
+    height: 300px;
+    background-color: rgb(102, 100, 100);
+    overflow: hidden;
+ }
+.contact{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 60px;
+    margin-left: 500px;
+    text-decoration: underline;
+    transition: color 0.5s ease-out;
+}
+.contact:hover{
+    color:#c0c27c;
+    cursor: pointer;
+
+}
+.c{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.number{
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
+}
+.phone{
+    width: 30px;
+    height: 60px;
+}
+.email{
+    width: 200px;
+    height: 200px;
+}
+.em{
+    width: 50px;
+    height: 40px;  
+}
+.linkdin{
+    width: 200px;
+    height: 300px;
+}
+.link{
+    width: 80px;
+    height: 70px;  
+}
+.s{
+    text-decoration: none;
+    color: #170f3a;
+}
+  .x{
+    display: flex;
+    transform: translate(60px,-50px);
+  
+  } 
+  .y{
+    transform: translate(80px,-40px);
+  }
+  .z{
+    transform: translate(80px,-60px);
+  }
+
